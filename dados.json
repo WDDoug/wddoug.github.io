@@ -1,0 +1,150 @@
+{
+  "restaurante": {
+    "nome": "Pizzaria EZEQUIEL ZICA",
+    "descricao": "Sabores personalizados direto do forno de pedra"
+  },
+  "cardapio": {
+    "pizzas_tradicionais": [
+      {
+        "id": "pt001",
+        "nome": "Pizza Margherita",
+        "descricao": "Molho de tomate, mussarela, manjericão fresco e azeite extravirgem",
+        "preco": 32.90,
+        "categoria": "pizzas-tradicionais",
+        "data_name": "margherita"
+      },
+      {
+        "id": "pt002",
+        "nome": "Pizza Portuguesa",
+        "descricao": "Presunto, ovos, cebola, azeitona, ervilha e mussarela",
+        "preco": 38.90,
+        "categoria": "pizzas-tradicionais",
+        "data_name": "portuguesa"
+      },
+      {
+        "id": "pt003",
+        "nome": "Pizza Calabresa",
+        "descricao": "Calabresa artesanal, cebola roxa, azeitona e mussarela",
+        "preco": 35.90,
+        "categoria": "pizzas-tradicionais",
+        "data_name": "calabresa"
+      },
+      {
+        "id": "pt004",
+        "nome": "Pizza Quattro Formaggi",
+        "descricao": "Mussarela, gorgonzola, parmesão e provolone",
+        "preco": 42.90,
+        "categoria": "pizzas-tradicionais",
+        "data_name": "quattro-formaggi"
+      },
+      {
+        "id": "pt005",
+        "nome": "Pizza Frango com Catupiry",
+        "descricao": "Frango desfiado temperado, catupiry original e milho",
+        "preco": 39.90,
+        "categoria": "pizzas-tradicionais",
+        "data_name": "frango-catupiry"
+      }
+    ],
+    "pizzas_especiais": [
+      {
+        "id": "pe001",
+        "nome": "Pizza Salmão",
+        "descricao": "Salmão defumado, cream cheese, alcaparras e rúcula",
+        "preco": 52.90,
+        "categoria": "pizzas-especiais",
+        "data_name": "salmao"
+      },
+      {
+        "id": "pe002",
+        "nome": "Pizza Camarão",
+        "descricao": "Camarões grandes, catupiry, tomate cereja e manjericão",
+        "preco": 48.90,
+        "categoria": "pizzas-especiais",
+        "data_name": "camarao"
+      },
+      {
+        "id": "pe003",
+        "nome": "Pizza Parma e Rúcula",
+        "descricao": "Presunto parma, rúcula fresca, tomate seco e parmesão",
+        "preco": 45.90,
+        "categoria": "pizzas-especiais",
+        "data_name": "parma-rugula"
+      },
+      {
+        "id": "pe004",
+        "nome": "Pizza Muçarela",
+        "descricao": "Muçarela ralada, alho, azeite trufado e tomates em rodela",
+        "preco": 44.90,
+        "categoria": "pizzas-especiais",
+        "data_name": "muçarela"
+      }
+    ],
+    "bebidas": [
+      {
+        "id": "b001",
+        "nome": "Coca-Cola 2L",
+        "descricao": "Refrigerante tradicional gelado",
+        "preco": 8.90,
+        "categoria": "bebidas",
+        "data_name": "coca-cola"
+      },
+      {
+        "id": "b002",
+        "nome": "Guaraná Antarctica 2L",
+        "descricao": "Refrigerante de guaraná gelado",
+        "preco": 8.90,
+        "categoria": "bebidas",
+        "data_name": "guarana"
+      },
+      {
+        "id": "b003",
+        "nome": "Suco de Laranja Natural",
+        "descricao": "Suco natural de laranja 500ml",
+        "preco": 7.50,
+        "categoria": "bebidas",
+        "data_name": "suco-laranja"
+      }
+    ],
+    "sobremesas": [
+      {
+        "id": "s001",
+        "nome": "Pizza Doce Nutella",
+        "descricao": "Nutella derretida com morango e chocolate granulado",
+        "preco": 28.90,
+        "categoria": "sobremesas",
+        "data_name": "pizza-nutella"
+      },
+      {
+        "id": "s002",
+        "nome": "Pizza Doce Brigadeiro",
+        "descricao": "Cobertura de brigadeiro com granulado e leite condensado",
+        "preco": 26.90,
+        "categoria": "sobremesas",
+        "data_name": "brigadeiro"
+      },
+      {
+        "id": "s003",
+        "nome": "Pizza Romeu e Julieta",
+        "descricao": "Queijo minas com goiabada e canela",
+        "preco": 24.90,
+        "categoria": "sobremesas",
+        "data_name": "romeu-julieta"
+      }
+    ]
+  },
+  "resumo": {
+    "total_produtos": 15,
+    "categorias": {
+      "pizzas_tradicionais": 5,
+      "pizzas_especiais": 4,
+      "bebidas": 3,
+      "sobremesas": 3
+    },
+    "faixa_precos": {
+      "menor_preco": 7.50,
+      "maior_preco": 52.90,
+      "preco_medio": 33.28
+    }
+  }
+}
